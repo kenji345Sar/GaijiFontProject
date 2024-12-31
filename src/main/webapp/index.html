@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>外字入力テスト</title>
+    <style>
+        @font-face {
+            font-family: 'GaijiFont';
+            src: url('./fonts/fontTest.woff') format('woff'); /* 外字フォントを指定 */
+        }
+        .gaiji-input {
+            font-family: 'GaijiFont', sans-serif; /* 外字フォントを適用 */
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <h1>外字入力テスト</h1>
+    <form action="/GaijiFontProject/SubmitFormServlet" method="post" accept-charset="UTF-8">
+        <input type="text" name="inputText" id="inputText" class="gaiji-input" placeholder="ここに#を入力してください">
+        <button type="submit">送信</button>
+    </form>
+<script src="js/script.js"></script>
+</body>
+</html>

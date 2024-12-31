@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'GaijiFont';
+    src: url('../fonts/fontTest1.woff') format('woff');
+}
+
+.gaiji {
+    font-family: 'GaijiFont', sans-serif;
+    font-size: 24px;
+    color: #333;
+}

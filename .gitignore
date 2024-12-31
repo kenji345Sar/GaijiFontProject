@@ -1,0 +1,18 @@
+# Eclipseの設定ファイルを無視
+.project
+.classpath
+.settings/
+
+# ビルド成果物を無視
+build/
+target/
+
+# 一時ファイルやログファイルを無視
+*.log
+*.tmp
+*.bak
+*.swp
+
+# OSごとの不要なファイル
+.DS_Store
+Thumbs.db
